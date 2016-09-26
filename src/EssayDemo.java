@@ -63,7 +63,7 @@ public class EssayDemo {
 				student=defaultName();
 			}
 		}
-		return "student";
+		return student;
 	}
 	
 	public static String getMsg(int x)
@@ -78,7 +78,7 @@ public class EssayDemo {
 				y= "Uhhh...Please enter the name of the student who wrote the essay.";
 				break;
 			case 3:
-				y= "You can do that by typing to the right." ;
+				y= "You can do that by typing on your keyboard." ;
 				break;
 			case 4:
 				y= "It's not hard. Most 8 year olds have mastered the art of typing a name." ;
